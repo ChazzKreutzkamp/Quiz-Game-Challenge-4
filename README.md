@@ -7,3 +7,5 @@ seconds. After the user runs out of time or answers all the questions they will 
 to see their score and submit it, or play again. If they choose to submit their score, it will then be appended
 to a list of high scores that can be accessed at any time.
 
+link to the application: https://chazzkreutzkamp.github.io/Quiz-Game-Challenge-4/
+A screen capture of the application is held in the resources folder.
