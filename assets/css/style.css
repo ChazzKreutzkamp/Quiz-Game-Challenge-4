@@ -110,4 +110,5 @@ footer {
 .high-score-main li {
     background-color: var(--primary-color);
     color: var(--fifth-color);
+    margin: 10px;
 }

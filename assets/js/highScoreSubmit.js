@@ -28,7 +28,7 @@ var highScoreHandler = function (IAndSObj) {
         localStorage.setItem("highScoreList", JSON.stringify(highscores));
     }
     else {
-        highscores = localStorageChecker;
+        highscores = JSON.parse(localStorageChecker);
         highscores.push(IAndSObj);
         localStorage.setItem("highScoreList", JSON.stringify(highscores));
     }
