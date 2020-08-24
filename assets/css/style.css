@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #df2ddf;
+    --secondary-color: purple;
+    --tritiary-color: white;
+    --fourth-color: black;
+    --fifth-color: #eee3ee;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+        background-color: var(--fifth-color);
+        font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+}
+header a {
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 20px;
+}
+main {
+    text-align: center;
+}
+main a {
+    margin: 20px 50px;
+    background-color: var(--secondary-color);
+    color: var(--tritiary-color);
+    padding: 5px;
+    font-size: 25px;
+}
+main a:hover {
+    background-color: var(--primary-color);
+}
+header h1 {
+    text-align: right;
+    text-emphasis-style: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+button {
+    color: var(--tritiary-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+button:hover {
+    background-color: var(--primary-color);
+}
+.page-content-index h2{
+    text-align: center;
+    font-size: 50px;
+}
+main #question-text {
+    text-align: center;
+    font-size: 30px;
+}
+.page-content-index p {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 40px;
+}
+#question-content {
+    font-size: 50px;
+}
+footer {
+    padding: 10px 60px;
+    font-size: 30px;
+    color: grey;
+}
+#game-over h2{
+    font-size: 50px;
+    padding: 25px;
+}
+.page-content-submit h2 {
+    font-size: 50px;
+    padding: 10px;
+}
+.page-content-submit h3 {
+    font-size: 40px;
+    padding: 10px;
+}
+.page-content-submit h4 {
+    font-size: 30px;
+    padding: 10px;
+}
+.page-content-submit input {
+    height: 40px;
+}
+#save-initials {
+    font-size: 20px;
+}
+.high-score-main h1 {
+    font-size: 50px;
+    padding-top: 20px;
+}
+.high-score-main ol {
+    font-size: 25px;
+    padding: 10px;
+}
+.high-score-main li {
+    background-color: var(--primary-color);
+    color: var(--fifth-color);
+}
