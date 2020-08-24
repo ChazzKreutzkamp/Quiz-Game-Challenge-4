@@ -112,6 +112,7 @@ var playGame = function () {
 }
 var loadQuestion = function (questionIndex) {
     if (questionIndex === questions.length) {
+        time = 0;
         gameEnd();
     }
     else {
@@ -157,10 +158,14 @@ var buttonHandler = function () {
         loadQuestion(questionIndex);
     }
 }
-var gameEnd = function () {
+var gameEnd = function (){
     questionContentEl.remove();
     answersContentEl.remove();
-    localStorage.setItem("recentScore", score);
+    pageContentEl.innerHTML = "<div id='submit-something'> <h2> Game Over </h2>" +
+    "<a href='./highScoreSubmit.html' class='anchor-btn'> Click Here to Submit your score! click here.</a>" +
+    "<a href='./index.html' class='anchor-btn'>Click Here to Play Again</a>";
+    localStorage.setItem("recentScore", score); 
 }
 playGame()
 answersContentEl.addEventListener("click", buttonHandler);
+
